@@ -1,0 +1,6 @@
+@charset "UTF-8";
+body{
+	/* 컨트롤 + 쉬프트 + 슬러쉬 = 자동주석  */
+	background: lime;
+	color: blue;
+}

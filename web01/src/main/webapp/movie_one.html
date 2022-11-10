@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<!-- CDN방식으로 연결하자! -->
+<link rel="stylesheet"
+	href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+</head>
+<body>
+	<h3>영화 제목 검색</h3>
+	<a href="movie_all.jsp">
+		<button>목록으로</button>
+	</a>
+	<hr>
+	<form action="movie_one.jsp">
+		<table class="table-dark table-striped">
+			<thead>
+				<tr>
+					<th>항목명</th>
+					<th>데이터입력</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>title</td>
+					<td><input name="TITLE" value="블랙 팬서: 와칸다 포에버"></td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<button type="submit" class="btn btn-light">서버로 전송</button>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</form>
+</body>
+</html>
